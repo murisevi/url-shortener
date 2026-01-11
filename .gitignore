@@ -1,0 +1,202 @@
+# ============================
+# PYTHON / FASTAPI / BACKEND
+# ============================
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python distributions
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# SQLAlchemy
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# ============================
+# REACT / FRONTEND
+# ============================
+
+# Dependency directories
+frontend/node_modules/
+frontend/.pnp
+.pnp.js
+
+# Production builds
+frontend/build/
+frontend/dist/
+
+# React testing
+frontend/coverage/
+
+# ============================
+# DATABASES
+# ============================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL
+postgresql/
+psql/
+
+# ============================
+# IDE / EDITORES
+# ============================
+
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# ============================
+# OS Generated Files
+# ============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================
+# TEMP FILES
+# ============================
+
+# Temp files
+*.tmp
+*.temp
+*.tmp.*
+
+# ============================
+# PROYECTO ESPECÍFICO
+# ============================
+
+# Backend migrations
+backend/app/migrations/
+backend/alembic/
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# ============================
+# PYTHON PACKAGING
+# ============================
+
+# PyInstaller
+**/__pycache__/
+**/venv/
+**/.env
+
+# ============================
+# PIP
+# ============================
+
+# pip-wheel metadata
+**/wheelhouse/
+.pip-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================
+# TOX
+# ============================
+
+.tox/
+
+# ============================
+# Jupyter Notebook
+# ============================
+
+.ipynb_checkpoints
+
+# ============================
+# pyenv
+# ============================
+
+.python-version
+
+# ============================
+# VSCode Python
+# ============================
+
+.vscode/.venv
+
+# ============================
+# Pipenv
+# ============================
+
+Pipfile.lock
+
+# ============================
+# Poetry
+# ============================
+
+poetry.lock
+
+# ============================
+# mypy
+# ============================
+
+.mypy_cache
+.dmypy.json
+dmypy.json
+
+# ============================
+# Pyre type checker
+# ============================
+
+.pyre/
